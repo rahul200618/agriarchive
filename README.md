@@ -228,9 +228,10 @@ See the full [LICENSE](./LICENSE) file for details.
 
 ## 👤 Author
 
-**Rahul Dheeraj Anil**  
+**Rahul A**  
 📧 rahuldheeraj.anil@gmail.com  
-🐙 [@rahul200618](https://github.com/rahul200618)
+🐙 [@rahul200618](https://github.com/rahul200618)  
+🏢 [Openalgon](https://github.com/openalgon-alt) — Working Company
 
 ---
 
