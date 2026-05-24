@@ -123,6 +123,8 @@ const CurrentIssue = () => {
                     <img
                       src={issue.coverUrl || issueCover}
                       alt={`${issue.title} Cover`}
+                      width={300}
+                      height={400}
                       className="w-full aspect-[3/4] object-cover"
                     />
                     <div className="p-6">

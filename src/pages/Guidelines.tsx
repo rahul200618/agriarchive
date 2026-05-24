@@ -273,6 +273,14 @@ const Guidelines = () => {
                     <div className="bg-white rounded-xl border border-slate-200 p-6 md:p-8 shadow-sm space-y-6">
                       
                       <div>
+                        <h3 className="font-bold text-xl text-slate-800 mb-3 border-b pb-2">General Information</h3>
+                        <ul className="list-disc pl-5 space-y-2 text-sm text-slate-600">
+                          <li>The articles published in Agri Archives represent the personal views of their individual authors.</li>
+                          <li>Agri Archive's purpose is to provide a platform for authors to publish and share their work online.</li>
+                        </ul>
+                      </div>
+
+                      <div>
                         <h3 className="font-bold text-xl text-slate-800 mb-3 border-b pb-2">Author's Responsibility</h3>
                         <ul className="list-disc pl-5 space-y-2 text-sm text-slate-600">
                           <li>While our editorial team reviews articles for quality and to ensure they meet our guidelines, the content itself is not changed.</li>

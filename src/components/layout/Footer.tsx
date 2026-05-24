@@ -15,6 +15,8 @@ export const Footer = () => {
               <img
                 src={mainLogo}
                 alt="Agri Archives Logo"
+                width={200}
+                height={64}
                 className="h-16 w-auto object-contain bg-white rounded-lg p-1"
               />
             </Link>

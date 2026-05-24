@@ -117,8 +117,14 @@ const Shop = () => {
     return (
         <>
             <Helmet>
-                <title>Shop | AgriArchives</title>
-                <meta name="description" content="Discover our unique collection of insect-inspired educational and creative products. Key chains, T-shirts, models, and more." />
+                <title>Insect-Inspired Educational Shop | Agri Archives</title>
+                <meta name="description" content="Browse our collection of insect-inspired educational products. Order customized resin key chains, printed T-shirts, 3D models, and alphabet charts." />
+                <meta name="keywords" content="insect keychains, agricultural merchandise, science gifts, educational insect models, 3D insect illustrations" />
+                <link rel="canonical" href="https://agriarchives.in/shop" />
+                <meta property="og:title" content="Insect-Inspired Educational Shop | Agri Archives" />
+                <meta property="og:description" content="Browse our collection of insect-inspired educational products. Order customized resin key chains, printed T-shirts, 3D models, and alphabet charts." />
+                <meta property="og:url" content="https://agriarchives.in/shop" />
+                <meta property="og:type" content="website" />
             </Helmet>
             <Layout>
                 {/* Hero Section */}
@@ -163,6 +169,8 @@ const Shop = () => {
                                                     <img
                                                         src={PRODUCT_IMAGES[product.title] || product.imageUrl}
                                                         alt={product.title}
+                                                        width={400}
+                                                        height={192}
                                                         className="w-full h-full object-cover"
                                                     />
                                                 ) : (

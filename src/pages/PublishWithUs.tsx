@@ -60,8 +60,14 @@ const PublishWithUs = () => {
     return (
         <>
             <Helmet>
-                <title>Publish With Us | AgriArchives</title>
-                <meta name="description" content="Publish your books, research papers, and patents with AgriArchives. Affordable services for academicians, researchers, and students." />
+                <title>Publish Books, Papers & Patents | Agri Archives</title>
+                <meta name="description" content="Publish your books, research papers, and patents with Agri Archives. End-to-end guidance, ISBN assistance, formatting, and patent specifications support." />
+                <meta name="keywords" content="publish agriculture book, patent drafting assistance, research paper writing support, academic book publication" />
+                <link rel="canonical" href="https://agriarchives.in/publish-with-us" />
+                <meta property="og:title" content="Publish Books, Papers & Patents | Agri Archives" />
+                <meta property="og:description" content="Publish your books, research papers, and patents with Agri Archives. End-to-end guidance, ISBN assistance, formatting, and patent specifications support." />
+                <meta property="og:url" content="https://agriarchives.in/publish-with-us" />
+                <meta property="og:type" content="website" />
             </Helmet>
             <Layout>
                 {/* Hero Section */}

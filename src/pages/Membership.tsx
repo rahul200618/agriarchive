@@ -24,8 +24,14 @@ const Membership = () => {
     return (
         <>
             <Helmet>
-                <title>Membership | Agri Archives</title>
-                <meta name="description" content="Join our magazine community. Annual membership for academicians, researchers, and students." />
+                <title>Annual Membership Program | Agri Archives</title>
+                <meta name="description" content="Join the Agri Archives community. Annual membership benefits for students, researchers, and academicians including publication privileges." />
+                <meta name="keywords" content="agri archives membership, annual agricultural membership, academic association, researcher community" />
+                <link rel="canonical" href="https://agriarchives.in/membership" />
+                <meta property="og:title" content="Annual Membership Program | Agri Archives" />
+                <meta property="og:description" content="Join the Agri Archives community. Annual membership benefits for students, researchers, and academicians including publication privileges." />
+                <meta property="og:url" content="https://agriarchives.in/membership" />
+                <meta property="og:type" content="website" />
             </Helmet>
             <Layout>
                 {/* Hero Section */}

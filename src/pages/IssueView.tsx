@@ -65,8 +65,15 @@ const IssueView = () => {
     return (
         <>
             <Helmet>
-                <title>{issue.title} | Agri Archives</title>
-                <meta name="description" content={`View details of ${issue.title} - ${issue.month} ${issue.year}`} />
+                <title>{issue.title} - Monthly E-Magazine | Agri Archives</title>
+                <meta name="description" content={`Access table of contents and PDF downloads for ${issue.title} (${issue.month} ${issue.year}). ${issue.description || 'Featuring articles in agricultural sciences.'}`} />
+                <meta name="keywords" content={`agri archives e-magazine, agriculture articles pdf, ${issue.title}, agricultural research papers`} />
+                <link rel="canonical" href={`https://agriarchives.in/issues/${issue.id}`} />
+                <meta property="og:title" content={`${issue.title} | Agri Archives`} />
+                <meta property="og:description" content={`Read articles in agriculture and allied sciences for ${issue.month} ${issue.year}.`} />
+                <meta property="og:url" content={`https://agriarchives.in/issues/${issue.id}`} />
+                <meta property="og:type" content="article" />
+                {issue.coverUrl && <meta property="og:image" content={issue.coverUrl} />}
             </Helmet>
             <Layout>
                 <section className="bg-primary py-16 md:py-24">
@@ -102,6 +109,8 @@ const IssueView = () => {
                                         <img
                                             src={issue.coverUrl || issueCover}
                                             alt={`${issue.title} Cover`}
+                                            width={300}
+                                            height={400}
                                             className="w-full aspect-[3/4] object-cover"
                                         />
                                         <div className="p-6">
