@@ -2,20 +2,21 @@
   <img src="src/assets/main-logo.png" alt="AgriArchives Logo" width="180"/>
   <h1>AgriArchives</h1>
   <p><strong>International Monthly Agriculture E-Magazine</strong></p>
+  <p>🌐 <a href="https://agriarchives.in">agriarchives.in</a></p>
 
   ![License](https://img.shields.io/badge/License-Proprietary-red.svg)
   ![React](https://img.shields.io/badge/React-18.3-blue?logo=react)
   ![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue?logo=typescript)
   ![Vite](https://img.shields.io/badge/Vite-7.x-purple?logo=vite)
   ![Supabase](https://img.shields.io/badge/Supabase-Backend-green?logo=supabase)
-  ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)
+  [![Vercel](https://img.shields.io/badge/Deployed-Vercel-black?logo=vercel)](https://agriarchives.in)
 </div>
 
 ---
 
 ## 📖 About
 
-**AgriArchives** is a modern, full-stack web platform for an international monthly agriculture e-magazine. It serves as a digital hub for publishing, discovering, and archiving high-quality agricultural research, articles, and journal issues. The platform supports both readers and administrators, offering a seamless reading experience alongside a powerful content management system.
+**[AgriArchives](https://agriarchives.in)** is a modern, full-stack web platform for an international monthly agriculture e-magazine. It serves as a digital hub for publishing, discovering, and archiving high-quality agricultural research, articles, and journal issues. The platform supports both readers and administrators, offering a seamless reading experience alongside a powerful content management system.
 
 ---
 

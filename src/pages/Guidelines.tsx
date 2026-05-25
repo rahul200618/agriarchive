@@ -194,7 +194,7 @@ const Guidelines = () => {
                     <div className="bg-purple-50 p-6 border-b border-purple-100">
                       <h3 className="text-lg font-semibold text-purple-900 mb-2">Article Processing Charge (APC)</h3>
                       <div className="flex items-baseline gap-2">
-                        <span className="text-4xl font-bold text-purple-700">₹ 150/-</span>
+                        <span className="text-4xl font-bold text-purple-700">₹ 200/-</span>
                       </div>
                       <p className="text-purple-600 text-sm mt-1">₹ 50/- extra for author list crossing 3.</p>
                     </div>
@@ -271,7 +271,7 @@ const Guidelines = () => {
 
                   <div className="space-y-6">
                     <div className="bg-white rounded-xl border border-slate-200 p-6 md:p-8 shadow-sm space-y-6">
-                      
+
                       <div>
                         <h3 className="font-bold text-xl text-slate-800 mb-3 border-b pb-2">General Information</h3>
                         <ul className="list-disc pl-5 space-y-2 text-sm text-slate-600">
@@ -312,17 +312,17 @@ const Guidelines = () => {
                           <div>
                             <p className="font-bold text-slate-700">Unlawful Activities:</p>
                             <p className="mb-3">You may not use our services for any illegal purposes.</p>
-                            
+
                             <p className="font-bold text-slate-700">Intellectual Property Violations:</p>
                             <p className="mb-3">Do not violate our intellectual property rights or those of others.</p>
-                            
+
                             <p className="font-bold text-slate-700">Harmful Content:</p>
                             <p>You are forbidden from submitting any content that is harmful, fraudulent, or misleading.</p>
                           </div>
                           <div>
                             <p className="font-bold text-slate-700">Malicious Software:</p>
                             <p className="mb-3">Do not upload or transmit viruses, worms, or any other type of malicious software.</p>
-                            
+
                             <p className="font-bold text-slate-700">Spam and Phishing:</p>
                             <p>Engaging in spamming, phishing, or similar deceptive activities is not allowed.</p>
                           </div>
